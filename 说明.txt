@@ -1,0 +1,9 @@
++ dingdian                               # 根目录
+    |- dingdian                          # Python的项目目录
+        |- spiders                     # 爬虫Spider部分，用于提取网页内容
+            |- __init__.py
+        |- __init__.py
+        |- items.py                    # 爬虫item， 用于定义数据结构
+        |- pipelines.py                # 爬虫pipeline，用于处理提取的结构，比如清洗数据、去重等
+        |- settings.py                 # Scrapy框架参数项目参数设置
+    |- scrapy.cfg                      # 爬虫部署相关设置
